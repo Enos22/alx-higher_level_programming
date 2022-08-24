@@ -3,17 +3,20 @@ import random
 number = random.randint(-10000, 10000)
 # the find_last function below finds the last digit of the number
 
+
 def find_last2(num):
-  temp = str(num)
-  last = int(temp[len(temp) -1])
-  if num < 0:
+    temp = str(num)
+    last = int(temp[len(temp) -1])
+    if num < 0:
     return last * -1
-  return last
+    return last
+
 
 def find_last(num):
-  if num < 0:
+    if num < 0:
     return -1 * (( -1 * num) % 10)
-  return (num % 10)
+    return (num % 10)
+
 
 last_num = find_last(number)
 if last_num > 5:
