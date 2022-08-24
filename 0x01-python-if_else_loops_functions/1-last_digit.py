@@ -14,7 +14,7 @@ def find_last2(num):
 
 def find_last(num):
     if num < 0:
-        return -1 * ( ( -1 * num) % 10)
+        return -1 * ((-1 * num) % 10)
     return (num % 10)
 
 
