@@ -5,16 +5,16 @@ number = random.randint(-10000, 10000)
 
 
 def find_last2(num):
-    temp = str(num)
-    last = int(temp[len(temp) -1])
-    if num < 0:
+  temp = str(num)
+  last = int(temp[len(temp) - 1])
+if num < 0:
     return last * -1
     return last
 
 
 def find_last(num):
-    if num < 0:
-    return -1 * (( -1 * num) % 10)
+if num < 0:
+    return -1 * ( ( -1 * num) % 10)
     return (num % 10)
 
 
