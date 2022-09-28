@@ -11,4 +11,4 @@ class MyInt(int):
 
     def __eq__(self, val):
         """override parent __eq__ method"""
-        return self.real != 
+        return self.real != val 
